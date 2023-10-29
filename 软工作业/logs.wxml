@@ -1,0 +1,19 @@
+
+<view class="container" style="position: relative; left: 0rpx; top: -293rpx">
+  <view class="login-container">
+    <view class="input-container">
+      <view class="input-label">student name:</view>
+      <input class="input-field" type="text" placeholder="please input student name" bindinput="bindUsernameInput" />
+    </view>
+    <view class="input-container">
+      <view class="input-label">student ID:</view>
+      <input class="input-field" type="number" placeholder="please input student ID" bindinput="bindPasswordInput" />
+    </view>
+    <view class="button-container">
+      <button class="login-button" bindinput="login">login</button>
+    </view>
+  </view>
+</view>
+
+<navigator url="/pages/index/index" style="position: relative; left: 0rpx; top: -820rpx">return to first page</navigator>
+<navigator url="/pages/layer/layer" style="position: relative; left: -25rpx; top: -724rpx">go to choose layer</navigator>
